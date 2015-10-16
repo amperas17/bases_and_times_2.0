@@ -18,12 +18,12 @@ public class MainActivity extends TabActivity {
 
         TabHost.TabSpec tabSpec;
 
-        tabSpec = tabHost.newTabSpec("tab1");
+        tabSpec = tabHost.newTabSpec("tab_1");
         tabSpec.setIndicator("Секретная база");
         tabSpec.setContent(new Intent(this, BasesCodesActivity.class));
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("tab2");
+        tabSpec = tabHost.newTabSpec("tab_2");
         tabSpec.setIndicator("Разница во времени");
         tabSpec.setContent(new Intent(this, NumbersTimeActivity.class));
         tabHost.addTab(tabSpec);
