@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Secret_Base</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_numbers_time">NumbersTimeActivity</string>
+    <string name="title_activity_bases_codes">BasesCodesActivity</string>
+    <string name="tvRulesMessageText">Enter the length of message(N) from 1 to 10 numbers, the length of code(k) from 1 to 5 numbers and the secret message in next order:\nN k\nmessage</string>
+</resources>
